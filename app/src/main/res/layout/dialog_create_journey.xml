@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_conrner"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/bg_header_corner"
+        android:text="Name of Journey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Enter your name of your journey"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/journeyNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Whatever name you want"
+        android:background="@drawable/bg_white_corner_border_black"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:textSize="16sp"
+            android:backgroundTint="#FB0000"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="Save"
+            android:backgroundTint="@drawable/bg_header_corner" />
+    </LinearLayout>
+
+</LinearLayout>

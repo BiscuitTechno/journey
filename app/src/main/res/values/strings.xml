@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">journey</string>
+    <string name="fab_edit_description" > Edit Journey</string>
+    <string name="fab_memories_description" > Journey Memories</string>
+    <string name="fab_create_description" > Create Journey</string>
+    <string name="google_map_view" > google map view</string>
+</resources>

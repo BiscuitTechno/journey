@@ -1,0 +1,25 @@
+<!-- custom_info_window.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/info_window_background"
+    android:layout_margin="5dp">
+    <TextView
+    android:id="@+id/tagNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:paddingBottom="5dp" />
+
+    <TextView
+    android:id="@+id/notesTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:paddingBottom="5dp" />
+
+
+        </LinearLayout>
